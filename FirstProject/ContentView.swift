@@ -9,16 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                NavigationLink(destination: TextLengthView()) {
+                    Text("文本长度计算器")
+                }
+                NavigationLink(destination: HelloWorldView()) {
+                    Text("Hello World")
+                }
+            }
+            .navigationTitle("主菜单")
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
