@@ -61,9 +61,9 @@
 				C1D97E602C4E27BA0018E5A1 /* ContentView.swift */,
 				C1D97E6C2C4E28160018E5A1 /* TextLengthView.swift */,
 				C1D97E6E2C4E28380018E5A1 /* HelloWorldView.swift */,
+				C1D97E702C4E2A1B0018E5A1 /* SwiftUILearningToolbox.swift */,
 				C1D97E622C4E27BB0018E5A1 /* Assets.xcassets */,
 				C1D97E642C4E27BB0018E5A1 /* Preview Content */,
-				C1D97E702C4E2A1B0018E5A1 /* SwiftUILearningToolbox.swift */,
 			);
 			path = FirstProject;
 			sourceTree = "<group>";
