@@ -13,6 +13,7 @@
 		C1D97E662C4E27BB0018E5A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D97E652C4E27BB0018E5A1 /* Preview Assets.xcassets */; };
 		C1D97E6D2C4E28160018E5A1 /* TextLengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D97E6C2C4E28160018E5A1 /* TextLengthView.swift */; };
 		C1D97E6F2C4E28380018E5A1 /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D97E6E2C4E28380018E5A1 /* HelloWorldView.swift */; };
+		C1D97E712C4E2A1B0018E5A1 /* SwiftUILearningToolbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D97E702C4E2A1B0018E5A1 /* SwiftUILearningToolbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C1D97E652C4E27BB0018E5A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1D97E6C2C4E28160018E5A1 /* TextLengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLengthView.swift; sourceTree = "<group>"; };
 		C1D97E6E2C4E28380018E5A1 /* HelloWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldView.swift; sourceTree = "<group>"; };
+		C1D97E702C4E2A1B0018E5A1 /* SwiftUILearningToolbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningToolbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C1D97E6E2C4E28380018E5A1 /* HelloWorldView.swift */,
 				C1D97E622C4E27BB0018E5A1 /* Assets.xcassets */,
 				C1D97E642C4E27BB0018E5A1 /* Preview Content */,
+				C1D97E702C4E2A1B0018E5A1 /* SwiftUILearningToolbox.swift */,
 			);
 			path = FirstProject;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				C1D97E5F2C4E27BA0018E5A1 /* FirstProjectApp.swift in Sources */,
 				C1D97E6F2C4E28380018E5A1 /* HelloWorldView.swift in Sources */,
 				C1D97E6D2C4E28160018E5A1 /* TextLengthView.swift in Sources */,
+				C1D97E712C4E2A1B0018E5A1 /* SwiftUILearningToolbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstProject/Preview Content\"";
+				DEVELOPMENT_TEAM = XA8J938XD3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstProject/Preview Content\"";
+				DEVELOPMENT_TEAM = XA8J938XD3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

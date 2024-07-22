@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct TextLengthView: View {
     @State private var inputText = ""
@@ -18,7 +19,8 @@ struct TextLengthView: View {
                 .padding()
             
             Button(action: {
-                outputText = "\(inputText.count)"
+                calculateLength()
+                triggerHapticFeedback()
             }) {
                 Text("提交")
                     .padding()
@@ -34,6 +36,15 @@ struct TextLengthView: View {
         }
         .padding()
         .navigationTitle("文本长度计算器")
+    }
+    
+    private func calculateLength() {
+        outputText = "\(inputText.count)"
+    }
+    
+    private func triggerHapticFeedback() {
+        let impact = UIImpactFeedbackGenerator(style: .medium)
+        impact.impactOccurred()
     }
 }
 
