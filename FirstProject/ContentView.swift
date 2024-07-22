@@ -36,7 +36,10 @@ struct CustomContentView: View {
                             }
                             
                             NavigationLink(destination: SwiftUILearningToolbox()) {
-                                MenuItemView(title: "SwiftUI 学习工具箱", icon: "toolbox.fill")
+                                MenuItemView(title: "SwiftUI 学习工具箱", icon: "figure.walk")
+                            }
+                            NavigationLink(destination: HTTPRequestView()) {
+                                MenuItemView(title: "HTTP 请求", icon: "network")
                             }
                         }
                         .padding()
